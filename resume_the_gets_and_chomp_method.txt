@@ -1,0 +1,4 @@
+gets: is short to get string from the  user. No matter what the user types, we use gets it's always going to be a string
+
+
+The chomp method remove newline ("\n") character at the end of a string
