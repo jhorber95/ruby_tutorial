@@ -3,3 +3,4 @@ p 2 != 2
 
 p 'hi' != 'everyone'
 p 'hi' != 'hi'
+p 'Well'.downcase != 'well'
