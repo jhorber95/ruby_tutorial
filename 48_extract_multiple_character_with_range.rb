@@ -4,3 +4,4 @@ p words[12..39]
 p words.slice(12..39)
 
 p words.slice(12...39)
+p words.slice(12...-5)
