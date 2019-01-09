@@ -13,3 +13,9 @@ puts
 person.each do |key, value|
   p "key: #{key}, value: #{value}"
 end
+puts
+
+# iterate only keys
+person.each_key do |key|
+  puts "key #{key}"
+end
