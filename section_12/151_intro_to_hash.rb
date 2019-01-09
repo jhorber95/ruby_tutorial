@@ -1,7 +1,9 @@
 person_hash = {
-    name: 'maira',
-    last_name: 'Smith',
-    age: 12
+  'name' => 'maira',
+  'last_name' => 'Smith',
+  'age' => 12
 }
 p person_hash
 p person_hash.class
+
+p person_hash['name']
