@@ -15,6 +15,7 @@ person.each do |key, value|
 end
 puts
 
+# Video 159
 # iterate only keys
 person.each_key do |key|
   puts "key #{key}"
