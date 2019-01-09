@@ -6,3 +6,8 @@ person = {
 
 p person.keys
 p person.values
+
+person.default = 'not found'
+
+puts
+p person[:last_name]
