@@ -8,3 +8,8 @@ person[:last_name] = 'gonzales'
 person.store(:phone, '3216547')
 
 p person
+puts
+
+person.each do |key, value|
+  p "key: #{key}, value: #{value}"
+end
