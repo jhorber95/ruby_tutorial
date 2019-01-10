@@ -10,6 +10,10 @@ p phrase.scan(/\D/) # return only letters
 p phrase.scan(/\s/) # return any occurrence of a of a space
 p phrase.scan(/\S/) # S mean any non whitespace
 
+# it's only going to locate this collection of characters right
+p phrase.scan(/ing\z/)
+
+
 puts
 # this mean when we do slash D is one or more
 # ocurrences of a digit in a row
