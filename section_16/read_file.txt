@@ -1,2 +1,2 @@
-lorem ipsum
-dolor item
+creating new line
+ruby on rails
