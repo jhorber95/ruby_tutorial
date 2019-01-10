@@ -16,4 +16,5 @@ end
 # rename and delete a file
 
 File.rename('old_title.txt', 'new_title.txt')
-File.delete('new_title.txt')
+
+File.delete('new_title.txt') if File.exist?('new_title.txt')
