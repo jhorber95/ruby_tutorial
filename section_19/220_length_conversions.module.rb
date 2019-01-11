@@ -10,6 +10,13 @@ module LengthConversions
   end
 end
 
+module OtherLengthConversions
+  def self.centimeters_to_meter(centimeters)
+    centimeters / 120
+  end
+end
+
 p LengthConversions::SENTENCE
 
 p LengthConversions.centimeters_to_meters(1200)
+p OtherLengthConversions.centimeters_to_meters(1200)
