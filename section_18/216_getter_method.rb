@@ -7,10 +7,11 @@ class Person
     @address = 'cr 12# 5-6'
   end
 
-
 end
 
 someone = Person.new
 
+someone.address = 'new address'
+someone.name = 'Jose'
 p someone.name
 p someone.address
