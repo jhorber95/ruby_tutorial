@@ -13,9 +13,19 @@ class Gadget
   def to_s
     'method override'
   end
+
+  def get_class_and_id_object
+    "It made from the #{self.class}. ID #{self.object_id}"
+  end
 end
 
 phone = Gadget.new
+laptop = Gadget.new
+
+puts phone.get_class_and_id_object
+puts laptop.get_class_and_id_object
+
+puts
 
 puts phone.info
 puts phone.to_s
