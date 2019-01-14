@@ -16,6 +16,15 @@ p scores.identify_duplicate_values
 puts
 
 class Integer
+
+  def custom_times
+    i = 0
+    while i < self
+      yield(i + 1)
+      i += 1
+    end
+  end
+
   def seconds
     self
   end
@@ -25,14 +34,20 @@ class Integer
   end
 
   def hours
-    self * 60 * 60
+    minutes * 60
   end
 
   def days
-    self * 60 * 60 * 24
+    hours * 24
   end
 end
 
+5.custom_times {|i| puts i}
+puts
+# original method
+5.times {|i| puts i}
+
+puts
 puts Time.now
 puts Time.now + 45.minutes
 puts Time.now + 2.hours
